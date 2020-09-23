@@ -1,0 +1,66 @@
+.tabbar {
+  width: 375px;
+  height: 49px;
+  background-color: #0086a6;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+
+  .chunk {
+    width: 352px;
+    height: 49px;
+    margin: 0px 12px 0px 11px;
+
+    .chunk-left {
+      float: left;
+
+      img {
+        width: 45px;
+        height: 45px;
+        position: relative;
+        top: 2px;
+      }
+
+      .title {
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: 0px;
+        left: 65px;
+        text-align: left;
+
+        .song {
+          font-size: 12px;
+          color: #ffffff;
+        }
+
+        .name {
+          font-size: 9px;
+          color: #eeeeee;
+          position: relative;
+          top: -8px;
+        }
+      }
+    }
+
+    .chunk-right {
+      float: right;
+      position: relative;
+      top: 11px;
+
+      .bofang {
+        width: 25px;
+        height: 25px;
+        margin-right: 22px;
+      }
+
+      .menu {
+        width: 20px;
+        height: 18px;
+        position: relative;
+        top: -3px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

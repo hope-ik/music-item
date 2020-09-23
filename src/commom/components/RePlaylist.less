@@ -1,0 +1,81 @@
+.Playlist {
+  width: 375px;
+  height: 367px;
+  position: relative;
+  top: 29px;
+
+  .play-title {
+    width: 100%;
+    height: 15px;
+    // background: red;
+    margin-bottom: 10px;
+
+    .play-list {
+      font-size: 16px;
+      line-height: 15px;
+      color: #333333;
+      float: left;
+      margin-left: 10px;
+    }
+
+    .more {
+      font-size: 9px;
+      line-height: 15px;
+      color: #666666;
+      float: right;
+      margin-right: 10px;
+
+      img {
+        width: 6px;
+        height: 10px;
+      }
+    }
+  }
+
+  .chunk-box {
+    width: 355px;
+    height: 311px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .chunk {
+      width: 170px;
+      height: 150px;
+      border-radius: 5px;
+      background-color: #ffffff;
+      box-shadow: 0.08rem 0.08rem 1px #cecece;
+      // opacity: 0.2;
+      flex-wrap: wrap;
+      margin: 0px 0px 14px 6px;
+
+      .PlayFew {
+        opacity: 0.5;
+        border-radius: 10px;
+        background-color: #333333;
+        font-size: 7px;
+        color: #ffffff;
+        width: -webkit-fit-content;
+        position: relative;
+        top: -115px;
+        .bf {
+          width: 6px;
+          height: 8px;
+        }
+      }
+      img {
+        width: 160px;
+        height: 100px;
+        border-radius: 5px;
+        margin: 6px 5px 0px 5px;
+      }
+
+      p {
+        font-size: 12px;
+        float: left;
+        margin: 3px 0px 0px 0px;
+      }
+    }
+  }
+}
