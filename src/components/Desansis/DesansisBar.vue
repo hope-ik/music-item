@@ -31,13 +31,19 @@ export default {
   height: 100%;
   .desansisbar-box {
     margin: 0 auto;
-    width: 195px;
-    height: 23px;
-    position: relative;
-    top: 80px;
+    width: 100%;
+    height: 111px;
+    position: fixed;
+    z-index: 998;
+    background: #00ceff;
+    top: 3px;
+    border-radius: 50%;
     ul {
       width: 100%;
       height: 100%;
+      position: relative;
+      top: 65px;
+      left: 94px;
       li {
         float: left;
         position: relative;

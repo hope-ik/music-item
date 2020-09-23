@@ -23,8 +23,8 @@ export default {
   .bg {
     width: 100%;
     height: 120px;
-    background: #00ceff;
-    border-radius: 50%;
+    // background: #00ceff;
+    // border-radius: 50%;
   }
 }
 </style>

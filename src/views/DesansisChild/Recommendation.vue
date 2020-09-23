@@ -15,5 +15,7 @@ export default {
 .Recommendation {
   width: 100%;
   height: 100%;
+  position: relative;
+  top: 20px;
 }
 </style>
