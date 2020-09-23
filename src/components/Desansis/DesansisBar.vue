@@ -36,7 +36,7 @@ export default {
     position: fixed;
     z-index: 998;
     background: #00ceff;
-    top: 3px;
+    top: 0px;
     border-radius: 50%;
     ul {
       width: 100%;

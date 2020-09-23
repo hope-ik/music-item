@@ -48,7 +48,7 @@ export default {
   height: 667px;
   z-index: -10;
   position: relative;
-  top: 56px;
+  top: 51px;
   background-size: 100% 100%;
 }
 </style>
