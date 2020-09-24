@@ -1,4 +1,5 @@
 <template>
+  <!--播放页 音乐播放条 -->
   <div class="progress-bar" ref="progressBar">
     <div class="bar-inner">
       <div class="progress" ref="progress"></div>

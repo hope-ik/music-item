@@ -1,4 +1,5 @@
 <template>
+  <!-- 发现 -->
   <div class="index">
     <top-toolbar></top-toolbar>
     <tab-bar></tab-bar>

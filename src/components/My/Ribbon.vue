@@ -1,4 +1,5 @@
 <template>
+  <!-- 个人中心 功能区 -->
   <div class="Ribbon">
     <div class="box">
       <div class="chunk" v-for="(item,index) in list" :key="index">

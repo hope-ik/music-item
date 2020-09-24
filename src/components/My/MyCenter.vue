@@ -1,4 +1,5 @@
 <template>
+  <!-- 个人中心 资料区 -->
   <div class="MyCenter">
     <img class="tx" src="../../assets/My/touxiang.png" alt />
     <span class="name">Dearest</span>

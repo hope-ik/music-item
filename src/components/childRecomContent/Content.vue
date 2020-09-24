@@ -1,4 +1,5 @@
 <template>
+  <!-- 音乐区 评论区 -->
   <div class="content">
     <div class="ccc" v-for="(item,index) in list" :key="index">
       <img :src="item.tp" alt />
