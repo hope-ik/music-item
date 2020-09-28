@@ -5,6 +5,8 @@ import My from "../views/My.vue"
 import Desansis from '../views/Desansis.vue'
 import PlayPage from "../views/PlayPage/PlayPage.vue"
 
+import Login from "../views/login/Login.vue"
+
 import Nearby from "../views/DesansisChild/Nearby.vue"
 import Recommendation from "../views/DesansisChild/Recommendation.vue"
 import Attention from "../views/DesansisChild/Attention.vue"
@@ -52,6 +54,13 @@ const routes = [{
         }
 
     ]
+},
+{
+    path: '/login',
+    name: 'login',
+    component: Login,
+
+
 },
 {
     path: '/playpage',
