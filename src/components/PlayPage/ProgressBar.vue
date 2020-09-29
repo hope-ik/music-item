@@ -9,6 +9,11 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  
+}
+</script>
 <style lang="less" scoped>
 .progress-bar {
   width: 355px;
@@ -22,6 +27,7 @@
   }
   .progress {
     position: absolute;
+    width: 100%;
     height: 100%;
     background: linear-gradient(to right, #be99ff, #7232dd);
   }
